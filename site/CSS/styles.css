@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dosis', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+.sans {
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
