@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dosis', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+#contentContainer {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px outset rgb(219, 228, 240);
+    border-radius: 2px;
+    overflow: hidden; /* css is cray tho */
+    min-width: 150px;
+}
+h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 1em 0;
+}
+section {
+    position: relative;
+    padding: 0.5em 0.75em;
+    float: left;
+}
+.title {
+    float: right;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    text-align: center;
+    width: 100px;
+    padding: 0 4%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 30%  10%;
+}
+.description {
+    padding: 2.25em 0.75em 0.5em;
+    width: 100%;
+    top: 40px;
+    text-align: justify;
+    background-color: rgb(233, 238, 245);
+    border-radius: 3px;
+}
+#part1 .title {
+    background-color: rgb(255, 232, 202);
+}
+#part2 .title {
+    background-color: rgb(255, 200, 190);
+}
+#part3 .title {
+    background-color: rgb(255, 154, 143);
+}
+
+/* mobile <= 767px default styles */
+@media (max-width: 767px) {
+    section {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #part1, #part2 {
+        width: 50%;
+    }
+    #part3 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    #part1, #part2, #part3 {
+        width: 33.3%;
+    }
+}
