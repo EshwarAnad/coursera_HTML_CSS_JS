@@ -6,12 +6,8 @@
     letter-spacing: 0.5px;
     line-height: 1.4;
 }
+
 .sans {
     font-family: sans-serif;
 }
-.row {
-    border-bottom: 1px solid rgb(211, 224, 243);
-}
-.row > div {
-    background-color: rgb(226, 247, 248);
-}
+
